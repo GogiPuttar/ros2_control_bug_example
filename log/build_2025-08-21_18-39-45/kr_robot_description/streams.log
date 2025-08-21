@@ -1,0 +1,49 @@
+[0.011s] Invoking command in '/root/ros2_control_bug_example/build/kr_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_control_bug_example/build/kr_robot_description -- -j32 -l32
+[0.055s] Invoked command in '/root/ros2_control_bug_example/build/kr_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_control_bug_example/build/kr_robot_description -- -j32 -l32
+[0.061s] Invoking command in '/root/ros2_control_bug_example/build/kr_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_control_bug_example/build/kr_robot_description
+[0.074s] -- Install configuration: ""
+[0.074s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes
+[0.074s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810
+[0.074s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link3.stl
+[0.074s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link4.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link7.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link4.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Flange.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_ToolIO.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link6.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link3.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link5.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link7.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link2.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link2.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/.DS_Store
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Flange.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Base.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_ToolIO.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link6.obj
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Base.stl
+[0.075s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/meshes/a810/a810_Link5.obj
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/urdf
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/urdf/kr810_description.urdf.xacro
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/rviz
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/rviz/view_robot.rviz
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/config
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/config/kr810_controllers.yaml
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/config/kr810_controllers_1.yaml
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/kr810/config/kr810_jsb.yaml
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/ament_index/resource_index/package_run_dependencies/kr_robot_description
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/ament_index/resource_index/parent_prefix_path/kr_robot_description
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/environment/ament_prefix_path.sh
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/environment/ament_prefix_path.dsv
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/environment/path.sh
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/environment/path.dsv
+[0.076s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/local_setup.bash
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/local_setup.sh
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/local_setup.zsh
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/local_setup.dsv
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/package.dsv
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/ament_index/resource_index/packages/kr_robot_description
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/cmake/kr_robot_descriptionConfig.cmake
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/cmake/kr_robot_descriptionConfig-version.cmake
+[0.077s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_description/share/kr_robot_description/package.xml
+[0.078s] Invoked command in '/root/ros2_control_bug_example/build/kr_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_control_bug_example/build/kr_robot_description

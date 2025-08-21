@@ -1,0 +1,51 @@
+[0.009s] Invoking command in '/root/ros2_control_bug_example/build/kr_robot_driver': AMENT_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_control_bug_example/build/kr_robot_driver -- -j32 -l32
+[0.068s] [ 40%] Built target send_trajectory
+[0.072s] [100%] Built target kr_robot_driver
+[0.084s] Invoked command in '/root/ros2_control_bug_example/build/kr_robot_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_control_bug_example/build/kr_robot_driver -- -j32 -l32
+[0.085s] Invoking command in '/root/ros2_control_bug_example/build/kr_robot_driver': AMENT_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_control_bug_example/build/kr_robot_driver
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/kr_robot_driver.xml
+[0.094s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/kr_robot_driver.xml
+[0.094s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/include/kr_robot_driver
+[0.094s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/include/kr_robot_driver/kr_robot_driver
+[0.094s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/include/kr_robot_driver/kr_robot_driver/kr810_hardware.hpp
+[0.095s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch
+[0.095s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/view_kr810.launch.py
+[0.095s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/ros2_control
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/ros2_control/kr810.ros2_control.xacro
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/urdf
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/urdf/kr810.urdf.xacro
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/send_trajectory.launch.py
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/kr810_send_trajectory.launch.py
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/kr810_controller.launch.py
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/r6bot_controller.launch.py
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/config
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/config/r6bot_controller.yaml
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/config/kr810_controller.yaml
+[0.096s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/lib/kr_robot_driver/send_trajectory
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/lib/libkr_robot_driver.so
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/library_path.sh
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/library_path.dsv
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/package_run_dependencies/kr_robot_driver
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/parent_prefix_path/kr_robot_driver
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/ament_prefix_path.sh
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/path.sh
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/path.dsv
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.bash
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.sh
+[0.097s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.zsh
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.dsv
+[0.098s] -- Installing: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/package.dsv
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/packages/kr_robot_driver
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/kr_robot_driver
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/controller_interface__pluginlib__plugin/kr_robot_driver
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/export_kr_robot_driverExport.cmake
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/export_kr_robot_driverExport-noconfig.cmake
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/ament_cmake_export_targets-extras.cmake
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.098s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/kr_robot_driverConfig.cmake
+[0.099s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/kr_robot_driverConfig-version.cmake
+[0.099s] -- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/package.xml
+[0.099s] Invoked command in '/root/ros2_control_bug_example/build/kr_robot_driver' returned '0': AMENT_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_control_bug_example/install/kr_robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_control_bug_example/build/kr_robot_driver

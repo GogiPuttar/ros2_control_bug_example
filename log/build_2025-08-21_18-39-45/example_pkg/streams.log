@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/root/ros2_control_bug_example/build/example_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_control_bug_example/build/example_pkg -- -j32 -l32
+[0.058s] Invoked command in '/root/ros2_control_bug_example/build/example_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_control_bug_example/build/example_pkg -- -j32 -l32
+[0.059s] Invoking command in '/root/ros2_control_bug_example/build/example_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_control_bug_example/build/example_pkg
+[0.067s] -- Install configuration: ""
+[0.067s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/launch
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/launch/sim.launch.py
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/launch/spawn_table.launch.py
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/launch/spawn_kr810.launch.py
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/launch/test.launch.py
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/launch/control_kr810.launch.py
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table
+[0.068s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/model.config
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/Desk.png
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/model.sdf
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/materials
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/materials/textures
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/materials/textures/Desk_Albedo.png
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/materials/textures/Desk_Roughness.png
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/materials/textures/Desk_Normal.png
+[0.069s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/thumbnails
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/meshes
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/models/table/meshes/desk.dae
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/config
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/config/spawn_table.yaml
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/ament_index/resource_index/package_run_dependencies/example_pkg
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/ament_index/resource_index/parent_prefix_path/example_pkg
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/environment/path.sh
+[0.070s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/environment/path.dsv
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/local_setup.bash
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/local_setup.sh
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/local_setup.zsh
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/local_setup.dsv
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/package.dsv
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/ament_index/resource_index/packages/example_pkg
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/cmake/example_pkgConfig.cmake
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/cmake/example_pkgConfig-version.cmake
+[0.072s] -- Up-to-date: /root/ros2_control_bug_example/install/example_pkg/share/example_pkg/package.xml
+[0.094s] Invoked command in '/root/ros2_control_bug_example/build/example_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_control_bug_example/build/example_pkg

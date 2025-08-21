@@ -1,0 +1,47 @@
+[ 40%] Built target send_trajectory
+[100%] Built target kr_robot_driver
+-- Install configuration: ""
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/kr_robot_driver.xml
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/kr_robot_driver.xml
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/include/kr_robot_driver
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/include/kr_robot_driver/kr_robot_driver
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/include/kr_robot_driver/kr_robot_driver/kr810_hardware.hpp
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/view_kr810.launch.py
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/ros2_control
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/ros2_control/kr810.ros2_control.xacro
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/urdf
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/urdf/kr810.urdf.xacro
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/send_trajectory.launch.py
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/kr810_send_trajectory.launch.py
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/kr810_controller.launch.py
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/launch/r6bot_controller.launch.py
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/config
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/config/r6bot_controller.yaml
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/config/kr810_controller.yaml
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/lib/kr_robot_driver/send_trajectory
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/lib/libkr_robot_driver.so
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/library_path.sh
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/library_path.dsv
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/package_run_dependencies/kr_robot_driver
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/parent_prefix_path/kr_robot_driver
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/path.sh
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/environment/path.dsv
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.bash
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.sh
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.zsh
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/local_setup.dsv
+-- Installing: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/package.dsv
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/packages/kr_robot_driver
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/kr_robot_driver
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/ament_index/resource_index/controller_interface__pluginlib__plugin/kr_robot_driver
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/export_kr_robot_driverExport.cmake
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/export_kr_robot_driverExport-noconfig.cmake
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/kr_robot_driverConfig.cmake
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/cmake/kr_robot_driverConfig-version.cmake
+-- Up-to-date: /root/ros2_control_bug_example/install/kr_robot_driver/share/kr_robot_driver/package.xml

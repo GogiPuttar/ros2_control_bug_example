@@ -1,0 +1,22 @@
+services:
+  ros-example-env:
+    build: .
+    image: bug/ros-example-env:latest
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - LIBGL_ALWAYS_SOFTWARE=0    # do NOT force software
+      - MESA_LOADER_DRIVER_OVERRIDE=iris
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ../../:/root/ros2_control_bug_example:rw
+      - ~/.ssh/id_ed25519_devcontainer:/root/.ssh/id_ed25519:ro
+      - ~/.ssh/known_hosts:/root/.ssh/known_hosts:ro
+    devices:
+      - /dev/dri/card0:/dev/dri/card0
+      - /dev/dri/renderD128:/dev/dri/renderD128
+      - /dev/bus/usb:/dev/bus/usb
+      - /dev/video0:/dev/video0  # Only if present on host
+      - /dev/video1:/dev/video1  # (optional) sometimes D435 shows up here
+    network_mode: host
+    privileged: true 
