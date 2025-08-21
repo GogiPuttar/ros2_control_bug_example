@@ -1,7 +1,7 @@
 # ros2_control_bug_example
 Minimal example with docker container for illustrating bug with ros2_control bug: https://github.com/ros-controls/ros2_control/issues/2309
 
-# Overview
+## Overview
 This spins up a simple environment with ROS 2 Jazzy and Gazebo Harmonic (8.9.0). 
 The following instructions help recreate the error messages I'm seeing, particularly the very fishy:
 ```
@@ -11,7 +11,9 @@ The following instructions help recreate the error messages I'm seeing, particul
 [ERROR] [1755800831.453019700] [controller_manager]: Caught exception of type : N6rclcpp10exceptions22RCLInvalidROSArgsErrorE while initializing controller 'joint_state_broadcaster': failed to parse arguments: Couldn't parse params file: '--params-file -p'. Error: Error opening YAML file, at ./src/parser.c:271, at ./src/rcl/arguments.c:415
 ```
 
-# Requirements
+<br>
+
+## Requirements
 - Intel Mesa GPU (for rendering Gazebo Harmonic)
 - `docker` and `docker compose`:
   ```
@@ -21,7 +23,9 @@ The following instructions help recreate the error messages I'm seeing, particul
 - Feel free to edit the permissions in `docker/ros-example-env/docker-compose.yml` to best fit your requirements.
 The current setup is just tailored to my needs :)
 
-# Instructions
+<br>
+
+## Instructions
 
 - Build docker container (might take ~10 mins):
   ```
@@ -154,7 +158,9 @@ The current setup is just tailored to my needs :)
   [ERROR] [1755801979.087494038] [controller_manager]: Caught exception of type : N6rclcpp10exceptions22RCLInvalidROSArgsErrorE while initializing controller 'joint_state_broadcaster': failed to parse arguments: Couldn't parse params file: '--params-file -p'. Error: Error opening YAML file, at ./src/parser.c:271, at ./src/rcl/arguments.c:415
   ```
 
-# Quick Links to relevant files
+<br>
+
+## Quick Links to relevant files
 - Launch file: [`sim.launch.py`](https://github.com/GogiPuttar/ros2_control_bug_example/blob/main/src/example_pkg/launch/sim.launch.py)
 - Xacro: [`kr810_description.urdf.xacro`](https://github.com/GogiPuttar/ros2_control_bug_example/blob/main/external/kr_ros2/kr_robot_description/kr810/urdf/kr810_description.urdf.xacro)
 - Config file(s) (The current example uses `kr810_controllers_1.yaml`) but I'm not sure what is the right way to structure this file so I have two:
