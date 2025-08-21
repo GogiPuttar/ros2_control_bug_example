@@ -147,12 +147,14 @@ The current setup is just tailored to my needs :)
   ```
   ros2 run controller_manager spawner joint_state_broadcaster
   ```
-
-  You should immediately see:
+  <details>
+  <summary>You should immediately see:</summary>
+  
   ```
   [FATAL] [1755801979.122976081] [spawner_joint_state_broadcaster]: Failed loading controller joint_state_broadcaster
   [ros2run]: Process exited with failure 1
   ```
+  </details>
 
   <details>
   <summary>And in the gazebo terminal you should see:</summary>
