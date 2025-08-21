@@ -62,7 +62,10 @@ The current setup is just tailored to my needs :)
   ```
   ros2 launch example_pkg sim.launch.py
   ```
-  Gazebo should print:
+  
+  <details>
+  <summary>Gazebo should print:</summary>
+
   ```
   [INFO] [1755801818.126504953] [gz_ros_control]: [gz_ros2_control] Fixed joint [joint_world] (Entity=31)] is skipped
   [INFO] [1755801818.127807861] [gz_ros_control]: Loading controller_manager
@@ -139,6 +142,7 @@ The current setup is just tailored to my needs :)
   [Dbg] [SimulationRunner.cc:544] Creating postupdate worker thread (2)
   [WARN] [1755801820.177720354] [gz_ros_control]:  Desired controller update period (0.0025 s) is slower than the gazebo simulation period (0 s).
   ```
+  </details>
 - In the third terminal run:
   ```
   ros2 run controller_manager spawner joint_state_broadcaster
@@ -150,14 +154,17 @@ The current setup is just tailored to my needs :)
   [ros2run]: Process exited with failure 1
   ```
 
-  And in the gazebo terminal you should see:
+  <details>
+  <summary>And in the gazebo terminal you should see:</summary>
+
   ```
   [INFO] [1755801979.075956695] [controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
   [INFO] [1755801979.076100283] [controller_manager]: Loading controller 'joint_state_broadcaster'
   [INFO] [1755801979.086769039] [controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file -p use_sim_time:=true --param use_sim_time:=true 
   [ERROR] [1755801979.087494038] [controller_manager]: Caught exception of type : N6rclcpp10exceptions22RCLInvalidROSArgsErrorE while initializing controller 'joint_state_broadcaster': failed to parse arguments: Couldn't parse params file: '--params-file -p'. Error: Error opening YAML file, at ./src/parser.c:271, at ./src/rcl/arguments.c:415
   ```
-
+  </details>
+  
 <br>
 
 ## Quick Links to relevant files
