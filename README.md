@@ -155,4 +155,10 @@ The current setup is just tailored to my needs :)
   ```
 
 # Quick Links to relevant files
-- 
+- Launch file: [`sim.launch.py`](https://github.com/GogiPuttar/ros2_control_bug_example/blob/main/src/example_pkg/launch/sim.launch.py)
+- Xacro: [`kr810_description.urdf.xacro`](https://github.com/GogiPuttar/ros2_control_bug_example/blob/main/external/kr_ros2/kr_robot_description/kr810/urdf/kr810_description.urdf.xacro)
+- Config file(s) (The current example uses `kr810_controllers_1.yaml`) but I'm not sure what is the right way to structure this file so I have two:
+  - [`kr810_controllers_1.yaml`](https://github.com/GogiPuttar/ros2_control_bug_example/blob/main/external/kr_ros2/kr_robot_description/kr810/config/kr810_controllers_1.yaml)
+  - [`kr810_controllers.yaml`](https://github.com/GogiPuttar/ros2_control_bug_example/blob/main/external/kr_ros2/kr_robot_description/kr810/config/kr810_controllers.yaml)
+
+Thanks for looking into this :)
